@@ -1,0 +1,102 @@
+/* Start Body*/
+body{
+    background-color: bisque;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+/* End Body*/
+
+/* Start Debug */
+.bg-aqua {
+    background-color: aqua;
+}
+.bg-grey {
+    background-color: grey;
+}
+/* End Debug */
+
+/* Start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+/* Emd container */
+
+/* Start menu-primer*/
+.menu-primer ul {
+    background-color: gray;
+    border-radius: 4px;
+    box-shadow: 
+                0 3px 5px -1px grey rgba(0,0,0,2.),
+                0 6px 10px 0 grey rgba(0,0,0,.14), 
+                0 1px 18px 0 grey rgba(0,0,0,.12),
+}
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+}
+.menu-primer :hover {
+    background-color: gray;
+    color: #000;
+    text-decoration: none;
+}
+.menu-primer :active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* End menu-primer*/
+
+/* Start menu sekunder */
+    .menu-sekunder {
+        background-color: white;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        overflow: auto;
+        padding: 10px 0;
+    }
+    .menu-sekunder h4 {
+        font-size: 20px;
+        margin: auto;
+        text-transform: uppercase;
+    }
+    .menu-sekunder ul {
+        padding: 0px;
+    }
+    .menu-sekunder li {
+        list-style: disc;
+    }
+    .menu-sekunder li a,
+    .menu-sekunder p {
+        font-size: 15px;
+    }
+    .menu-sekunder-one,
+    .menu-sekunder-two,
+    .menu-sekunder-three {
+        float: left;
+    }
+    .menu-sekunder-one {
+        width: 40%;
+    }
+    .menu-sekunder-two ,
+    .menu-sekunder-three {
+        width: 30%;
+    }
+    .menu-sekunder li img {
+        vertical-align: middle;
+    }
+
+/* End menu sekunder */
